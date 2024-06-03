@@ -5,18 +5,23 @@
 import random
 from art import logo
 
+print(logo)
 print("Welcome to the Number Guessing Game!")
 print("I'm thinking of a number between 1 and 100.")
-
 print("Choose a difficulty. Type 'easy' or 'hard': ")
-choice = input()
 
 number = random.randint(1, 100)
 
-if choice == "easy":
-    attempts = 10
-else:
-    attempts = 5
+while 1<2:
+    choice = input()
+    if choice == "easy":
+        attempts = 10
+        break
+    elif choice == "hard":
+        attempts = 5
+        break
+    else:
+        print("please type again")
 
 while 1<2:
   print(f"You have {attempts} attempts remaining to guess the number.")
@@ -30,6 +35,7 @@ while 1<2:
     attempts -= 1
     if attempts == 0:
       print("Sorry. You losed!")
+      break
     else:
       if choice2 < number:
         print("Too low. Pls try again!")
