@@ -5,7 +5,7 @@
 4. Fix the error
 5. Print is your friend
 6. Use a debugger
-7. Take a break 
+7. Take a break (refresh your mind)
 8. Ask a friend
 9. Run (execute) often 
 10. Ask stackoverflow 
