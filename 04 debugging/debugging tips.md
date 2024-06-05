@@ -1,4 +1,5 @@
 * Debugging tips:
+
 1. Describe the problem
 2. Reproduce the bug
 3. Play computer
