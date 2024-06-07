@@ -2,3 +2,21 @@
 
 # If the user chooses correctly, he gains 1 additional point and continues choosing.
 # If the user chooses incorrectly, the game ends.
+
+from art import logo, vs
+import random as randint
+from game_data import data
+print(logo)
+
+
+while 1<2:
+  print("Compare" + data)
+
+  print(vs)
+  
+
+
+
+a = randint(1, len(data))
+
+# (editing)...
