@@ -12,6 +12,11 @@ print(logo)
 
 a = 0
 
+import os 
+
+def clear_screen(): 
+    os.system('cls' if os.name == 'nt' else 'clear') 
+
 while 1<2:
 
   randomitemfromthelist1 = random.choice(data)
@@ -46,7 +51,9 @@ while 1<2:
       a = a + 1
       print("You're right! Current score: " + str(a))
       print("let's continue!")
-      print("  ")
+      print(" Press any button to continue! ")
+      input()
+      clear_screen() 
     else:
       print("Sorry, that's wrong. Final score: " + str(a))
       print("Please start the game again if you still wanna play!")
@@ -57,11 +64,15 @@ while 1<2:
       a = a + 1
       print("You're right! Current score: " + str(a))
       print("let's continue!")
-      print("  ")
+      print(" Press any button to continue! ")
+      input()
+      clear_screen() 
     else:
       print("Sorry, that's wrong. Final score: " + str(a))
       print("Please start the game again if you still wanna play!")
       print("  ")
       break
   else:
-    print("please re-entry!!")
+    print("please (press any button)) re-entry!!")
+    input()
+    clear_screen() 
