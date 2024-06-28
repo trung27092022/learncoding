@@ -156,6 +156,6 @@ while 1<2:
             print("Sorry! We've run out of resources, so we cannot serve you cappuccino!")
 
     else:
-        print("there's no such command buildt within our system. Please try again!")
+        print("there's no such command built within our system. Please try again!")
 
 exit()
