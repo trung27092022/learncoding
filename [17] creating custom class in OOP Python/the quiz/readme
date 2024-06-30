@@ -1,4 +1,4 @@
-* This is a True/False many-question quiz. 
+* This is a "True"/"False" many-question quiz. 
 
 Within each turn, there's a question popping up on the screen, and the player needs to input their answer ("true" or "false").
 - Each correct answer = + 1 point.
