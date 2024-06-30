@@ -8,4 +8,4 @@ for i in question_data:
     question = Question(text, answer)
     question_bank.append(question)
 
-print(question_bank[0])
+print(question_bank)
