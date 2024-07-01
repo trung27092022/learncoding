@@ -1,0 +1,44 @@
+#  Quiz Project Part 4: How to continue showing new Questions
+
+from main import question_bank
+
+class QuizBrain:
+
+        def __init__(self, q_list):
+                # self.question_number = 0
+                self.question_list = q_list
+        
+        def still_has_question(self):
+            self.question_list = []
+            global q_list
+            keepgoing = True
+            while keepgoing == True:
+                    for i in question_bank:
+                            self.question_list.append(i.enterquestion)                            
+                            print(i.enterquestion)
+                            input()
+                            self.question_number = self.question_number + 1
+                            if self.question_number == len(question_bank):
+                                print("Thank you for playing. type anything in to continue...")
+                                input()
+                                keepgoing = False
+
+quiz = QuizBrain([])
+
+print(quiz.question_number)
+
+# quiz.still_has_question()
+
+# print(quiz.question_list)
+
+
+
+
+# print(quiz.question_list)
+
+# Why the above code was wrong: 
+# The issue is that you are trying to access the question_number attribute on the QuizBrain class itself, not an instance of the class. In Python, attributes defined in the __init__ method are instance attributes, meaning they belong to instances of the class rather than the class itself. 
+# ==> To fix this, you need to create an instance of QuizBrain and then access the question_number attribute on that instance. 
+# ==> In this corrected code, quiz is an instance of the QuizBrain class, and you access the question_number attribute on this instance. This should resolve the AttributeError.
+
+
