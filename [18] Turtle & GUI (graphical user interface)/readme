@@ -1,5 +1,6 @@
 # the turtle
 # GUI (Graphical User Interface) (before was "Text Interface")
 
-
-# Always remember:
+# Always remember: to be effective, these 2 below lines must be put below (after) performing the main needed function (method):
+screen = Screen()
+screen.exitonclick()
