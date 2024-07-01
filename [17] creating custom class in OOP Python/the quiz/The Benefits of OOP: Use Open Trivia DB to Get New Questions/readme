@@ -1,1 +1,1 @@
-Changed the data.py (remove the old data within) file with some new data from https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=boolean 
+Changed the data.py file (removed the old data within it) with some new data from https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=boolean 
